@@ -34,3 +34,5 @@ print(s.isnumeric())    # Checks if all characters are numeric
 print(s.isdecimal())    # Checks if all characters are decimal digits
 print(s.isidentifier()) # Checks if string is a valid identifier
 print(s.casefold())     # Converts to lowercase (more aggressive)
+print(s.index("world"))  # Returns index where 'world' starts (raises error if not found)
+
