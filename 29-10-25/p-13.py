@@ -1,0 +1,13 @@
+#Comparison of Tuples
+a = (1, 2, 3)
+b = (1, 2, 4)
+print("Tuple a:", a)
+print("Tuple b:", b)
+print("Is a equal to b?", a == b)
+print("Is a not equal to b?", a != b)
+print("Is a less than b?", a < b)
+print("Is a greater than b?", a > b)
+print("Is a less than or equal to b?", a <= b)
+print("Is a greater than or equal to b?", a >= b)
+print("Type of a:", type(a))
+print("Type of b:", type(b))
