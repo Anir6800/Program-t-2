@@ -1,10 +1,11 @@
+# WAP to swap case of the string using isupper() and islower()
 def swap_case(s):
     result = ''
     for char in s:
         if char.isupper():
-            result += chr(ord(char) + 32)
+            result += char.lower()
         elif char.islower():
-            result += chr(ord(char) - 32)
+            result += char.upper()
         else:
             result += char
     return result
