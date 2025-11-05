@@ -107,3 +107,13 @@ print("Original List:", my_list)
 my_list.reverse()
 print("Reversed List:", my_list)
 
+#11. sort()
+my_list = [30, 10, 40, 20]
+print("Original List:", my_list)
+#Sorting the list
+my_list.sort()
+print("Sorted List:", my_list)
+#Sorting in descending order
+my_list.sort(reverse=True)
+print("Sorted List in Descending Order:", my_list)
+
