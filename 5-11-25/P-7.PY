@@ -99,4 +99,11 @@ print("List after remove:", my_list)
 #Removing element 10
 my_list.remove(10)
 print("List after removing 10:", my_list)
-#Trying to remove an element not in the list
+
+#10. reverse()
+my_list = [10, 20, 30, 40]
+print("Original List:", my_list)
+#Reversing the list
+my_list.reverse()
+print("Reversed List:", my_list)
+
