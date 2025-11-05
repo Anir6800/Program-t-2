@@ -1,5 +1,5 @@
 numbers = [5, 3, 4, 100, -1, -2, 2]
-numbers.sort()  # sort in place, preserves duplicates
+numbers.sort()  
 
 if not numbers:
     max_length = 0
@@ -9,7 +9,7 @@ else:
     prev = numbers[0]
 
     for x in numbers[1:]:
-        if x == prev:          # skip duplicates
+        if x == prev:          
             continue
         if x == prev + 1:
             current_length += 1
